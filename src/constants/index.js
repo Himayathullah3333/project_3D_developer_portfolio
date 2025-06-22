@@ -15,16 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
 
+// ✅ NAVIGATION LINKS
 export const navLinks = [
   {
     id: "about",
@@ -40,13 +37,14 @@ export const navLinks = [
   },
 ];
 
-const services = [
+// ✅ SERVICES
+export const services = [
   {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,12 +52,13 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Next.js Developer",
     icon: creator,
   },
 ];
 
-const technologies = [
+// ✅ TECHNOLOGIES
+export const technologies = [
   {
     name: "HTML 5",
     icon: html,
@@ -114,81 +113,77 @@ const technologies = [
   },
 ];
 
-const experiences = [
+// ✅ EXPERIENCES (Fresher POV)
+export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Development (React.js)",
+    company_name: "Self Learning",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built multiple landing pages and UI components using React.js and Tailwind CSS.",
+      "Practiced creating responsive, accessible designs across different screen sizes.",
+      "Learned component-based architecture, props, state management, and routing.",
+      "Used Git for version control and GitHub for hosting personal projects.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Development (Node.js)",
+    company_name: "Personal Practice",
+    icon: nodejs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created simple RESTful APIs using Express.js for user authentication and data handling.",
+      "Connected MongoDB and MySQL databases for data storage and queries.",
+      "Handled environment variables, middleware, and basic error handling.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "3D Web Exploration (Three.js)",
+    company_name: "Learning Phase",
+    icon: threejs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Experimenting with 3D scenes and animations using Three.js.",
+      "Integrated 3D objects into landing pages for modern UI design.",
+      "Understanding camera, lights, meshes, and geometry basics.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Mini Projects & Personal Portfolio",
+    company_name: "Project-Based Learning",
+    icon: web,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a personal portfolio to showcase projects and skills.",
+      "Created a job search UI, car rental page, and basic CRUD apps.",
+      "Worked with project folder structures, reusable components, and API fetch logic.",
     ],
   },
 ];
 
-const testimonials = [
+// ✅ TESTIMONIALS
+export const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    testimonial: ".",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial: "",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial: ".",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -196,70 +191,42 @@ const testimonials = [
   },
 ];
 
-const projects = [
+// ✅ PROJECTS
+export const projects = [
   {
-    name: "Car Rent",
+    name: "Code-Quiz",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Interactive quiz app for testing coding knowledge with real-time feedback and score tracking.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "E-commerce",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Responsive e-commerce site with product browsing, cart, and secure checkout integration",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "3D-Landing page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A visually engaging 3D landing page built with interactive animations and smooth scrolling.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "three.js", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
-
-export { services, technologies, experiences, testimonials, projects };

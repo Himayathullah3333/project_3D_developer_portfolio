@@ -203,7 +203,7 @@ export const projects = [
       { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Himayathullah3333/Code-Quizz.git",
   },
   {
     name: "E-commerce",
@@ -215,7 +215,7 @@ export const projects = [
       { name: "scss", color: "pink-text-gradient" },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Himayathullah3333/E-commerce.git",
   },
   {
     name: "3D-Landing page",
@@ -227,6 +227,6 @@ export const projects = [
       { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
   },
 ];
